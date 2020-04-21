@@ -1,0 +1,4 @@
+Class Objects
+- TextData
+- MarkovChain
+- TextGenerator
