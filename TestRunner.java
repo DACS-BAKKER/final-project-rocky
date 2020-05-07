@@ -1,8 +1,10 @@
+import java.io.IOException;
+
 public class TestRunner {
 
-    public static void main(String[] args){
-        MarkovChain test = new MarkovChain();
-        test.generateTestChain(10);
+    public static void main(String[] args) throws IOException {
+        MarkovChain markovChain = new MarkovChain();
+        markovChain.generateTestChain(20);
     }
 
 }
